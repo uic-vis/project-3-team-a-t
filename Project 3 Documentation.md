@@ -59,7 +59,7 @@ For this question, we used the raceInfo CSV. Since we were comparing 3 different
 After plotting the data, we found our hypothesis to be partially true. The Latinx category did have the most cases, with a total of ~195.2k cases. This category reached also had a peak of 85,034 cases in 2020. However, the White category had the second highest total. This category had a total of ~181.3k cases, which was ~23.1k more cases that the Black category. The White category had a peak of ~57.6k cases in 2021. Something we found surprising was that the Asian category had the least cases during all three years. The total number of cases was ~31.5k, with a peak of ~16k in 2022.
 
 ## Which age range had the most hospitalizations in 2020, 2021, and 2022?
-For this question, we used the hospitalizationAges CSV. Similar to the plot above, we used a grouped bar chart to Tplot the data. Regarding visual encoding, we used lines as the visual marking. In terms of channels, we used vertical and horizontal positions, and color. Lastly, for interactability, we added a highlight effect to the bar groups. A group gets highlighted whenever the mouse moves over it.
+For this question, we used the hospitalizationAges CSV. Similar to the plot above, we used a grouped bar chart to plot the data. Regarding visual encoding, we used lines as the visual marking. In terms of channels, we used vertical and horizontal positions, and color. Lastly, for interactability, we added a highlight effect to the bar groups. A group gets highlighted whenever the mouse moves over it.
 
 ![hospAgeDist.png](https://github.com/uic-vis/project-3-team-a-t/blob/f843d435087112984d0a3e8b9b5bac1c5e2386c1/hospAgeDist.png)
 
