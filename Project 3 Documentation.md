@@ -46,7 +46,7 @@ For data transformations, we used pandas an created the following files:
 
 ## What was the total number of Covid cases recorded in 2020, 2021, and 2022?
 For this question, we used the yearTotal CSV. We chose to use a bar plot as it would allow us to compare the total # cases between the three different years. Regarding visual encoding, we used lines as the visual marking. In terms of channels, we used vertical and horizontal positions, and color. Lastly, for interactability, we added a highlight effect to the bars. A bar gets highlighted whenever the mouse moves over a bar.
-![yearlyAvgBar.png]
+[yearlyAvgBar.png](https://github.com/uic-vis/project-3-team-a-t/blob/aa707d022e46359bbc61f99e397a10ae7349ef69/yearlyAvgBar.png)
 
 After plotting the data, we found our hypothesis to be partially true. 2021 did indeed have the most cases overall with a total of ~249.4k cases. However, 2020 had the least number of cases, with the total being under 210k, which was not what we had expected. Surprisingly, the total cases for 2022 was ~246.9k cases, which is really close to 2021's total. As we get closer to the end of the year, the total number of cases could end up surpassing last year's total.
 
