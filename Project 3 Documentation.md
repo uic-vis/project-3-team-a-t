@@ -27,7 +27,7 @@ With our project, we aimed to answer the following questions:
 4) How has the number of covid cases changed during 2022?
 --> Hypothesis: There will be a sharp decrease in the recorded number of covid cases.
 
-5) Will the Number of Covid Cases be equal between Males and Females?
+5) Do Males and Females have an equal number of Covid cases in 2020, 2021, and 2022?
 --> Hypothesis: Covid cases will be nearly split evenly between Males and Females.
 
 6) Does gender correlate with Covid Cases and Deaths?
@@ -70,7 +70,7 @@ For this question, we referred to the covid22Year CSV. Regarding visual markings
 
 ![covid2022Line.png](https://github.com/uic-vis/project-3-team-a-t/blob/f843d435087112984d0a3e8b9b5bac1c5e2386c1/covid2022Line.png)
 
-## Will the Number of Covid Cases be equal between Males and Females?
+## Do Males and Females have an equal number of Covid cases in 2020, 2021, and 2022?
 For this question, we referred to the genderDistAllYear CSV. Since we were comparing the number of cases between Males and Females, we chose a pie chart. Regarding visual markings, we used area. For channels, we used color and spatial region.
 
 ![genderPiePlots.png](https://github.com/uic-vis/project-3-team-a-t/blob/f843d435087112984d0a3e8b9b5bac1c5e2386c1/genderPiePlots.png)
