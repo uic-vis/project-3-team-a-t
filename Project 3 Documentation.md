@@ -46,32 +46,42 @@ For data transformations, we used pandas an created the following files:
 
 ## What was the total number of Covid cases recorded in 2020, 2021, and 2022?
 For this question, we used the yearTotal CSV. We chose to use a bar plot as it would allow us to compare the total # cases between the three different years. Regarding visual encoding, we used lines as the visual marking. In terms of channels, we used vertical and horizontal positions, and color. Lastly, for interactability, we added a highlight effect to the bars. A bar gets highlighted whenever the mouse moves over a bar.
+
 ![yearlyAvgBar.png](https://github.com/uic-vis/project-3-team-a-t/blob/aa707d022e46359bbc61f99e397a10ae7349ef69/yearlyAvgBar.png)
 
 After plotting the data, we found our hypothesis to be partially true. 2021 did indeed have the most cases overall with a total of ~249.4k cases. However, 2020 had the least number of cases, with the total being under 210k, which was not what we had expected. Surprisingly, the total cases for 2022 was ~246.9k cases, which is really close to 2021's total. As we get closer to the end of the year, the total number of cases could end up surpassing last year's total.
 
 ## Which racial groups had the most recorded Covid Cases in 2020, 2021, and 2022?
 For this question, we used the raceInfo CSV. Since we were comparing 3 different attributes, we chose to use a grouped bar plot. This allowed us to compare cases and racial categories in 2020, 2021, and 2022. Regarding visual encoding, we used lines as the visual marking. In terms of channels, we used vertical and horizontal positions, and color. Lastly, for interactability, we added a highlight effect to the bar groups. A group gets highlighted whenever the mouse moves over it.
+
 ![raceDistPlot.png](https://github.com/uic-vis/project-3-team-a-t/blob/f843d435087112984d0a3e8b9b5bac1c5e2386c1/raceDistPlot.png)
+
 After plotting the data, we found our hypothesis to be partially true. The Latinx category did have the most cases, with a total of ~195.2k cases. This category reached also had a peak of 85,034 cases in 2020. However, the White category had the second highest total. This category had a total of ~181.3k cases, which was ~23.1k more cases that the Black category. The White category had a peak of ~57.6k cases in 2021. Something we found surprising was that the Asian category had the least cases during all three years. The total number of cases was ~31.5k, with a peak of ~16k in 2022.
 
 ## Which age range had the most hospitalizations in 2020, 2021, and 2022?
 For this question, we used the hospitalizationAges CSV. Similar to the plot above, we used a grouped bar chart to Tplot the data. Regarding visual encoding, we used lines as the visual marking. In terms of channels, we used vertical and horizontal positions, and color. Lastly, for interactability, we added a highlight effect to the bar groups. A group gets highlighted whenever the mouse moves over it.
+
 ![hospAgeDist.png](https://github.com/uic-vis/project-3-team-a-t/blob/f843d435087112984d0a3e8b9b5bac1c5e2386c1/hospAgeDist.png)
+
 After we plotted the data, we found our hypothesis to be true. The age range with the most cases was the 50-69 age range. This age range had a peak of ~7.9k hospitalizations in 2020. The age-range with the least hospitalizations was the 0-29 age range, with a peak of ~1.8k hospitalizations in 2021.
 
 ## How has the number of covid cases changed during 2022?
 For this question, we referred to the covid22Year CSV. Regarding visual markings, we used lines. For channels, we used color and angle/tilt. After plotting our data, we found our hypothesis to be true. At the start of the year, there was around 91k cases. However, this number dropped down drastically in the next 2 months, with the total cases being under 10k cases. During April, the cases we up to about 34k cases. However, the total has been decreasing since. Although the current trend for Covid cases seeems to be decreasing, it important to note that number of cases could increase as we transition to winter.
+
 ![covid2022Line.png](https://github.com/uic-vis/project-3-team-a-t/blob/f843d435087112984d0a3e8b9b5bac1c5e2386c1/covid2022Line.png)
 
 ## Will the Number of Covid Cases be equal between Males and Females?
 For this question, we referred to the genderDistAllYear CSV. Since we were comparing the number of cases between Males and Females, we chose a pie chart. Regarding visual markings, we used area. For channels, we used color and spatial region.
+
 ![genderPiePlots.png](https://github.com/uic-vis/project-3-team-a-t/blob/f843d435087112984d0a3e8b9b5bac1c5e2386c1/genderPiePlots.png)
+
 After plotting the data, we found our hypothesis to be false. We expected the cases to be split almost evenly between Males and Females. Instead, Females had the majority cases during all three years.
 
 ## Does gender correlate with Covid Cases and Deaths?
 For this question, we referred to the genderDist2 CSV. We wanted to see if there was a correlation between gender, cases, and death, which is why we chose a scatter plot. Regarding visual markings, we used points. For channels, we used color, vertical, and horizontal positioning. Lastly, for interactability, we added added a brush feature. This allows for certain points to be selected.
-![[scatter.png](attachment:scatter.png)](https://github.com/uic-vis/project-3-team-a-t/blob/f843d435087112984d0a3e8b9b5bac1c5e2386c1/scatter.png)
+
+![scatter.png](https://github.com/uic-vis/project-3-team-a-t/blob/f843d435087112984d0a3e8b9b5bac1c5e2386c1/scatter.png)
+
 After plotting the data, we found our hypothesis to be true. There was no correlation between the 3 attributes. One thing we did notice was that a majority of the points were clustered towards the bottom left portion of the plot. This clustering indicated that there were less deaths at the start of the second half of 2021.
 
 ## Covid Cases By Zipcode
